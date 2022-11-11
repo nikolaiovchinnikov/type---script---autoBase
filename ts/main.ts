@@ -1,0 +1,11 @@
+Поля грузовика:
+id: number;
+name: string;
+driver: Driver;
+state: TruckState;
+stringState: string;
+Поля водителя:
+name: string;
+surname: string;
+age: number;
+experience: number;

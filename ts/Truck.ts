@@ -15,6 +15,12 @@ export class Truck {
     set state (statisticObject:TruckState){
         this._state = statisticObject
     }
+    set stringState (string:str){
+        this._stringState = string
+    }
+    get sring (){
+        return this._stringState
+    }
     get stateReturn (){
         return {
             id : this._id,

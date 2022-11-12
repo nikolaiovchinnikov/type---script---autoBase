@@ -1,4 +1,4 @@
-import { str, } from "./TYPE";
+import { str,num } from "./TYPE";
 
 export const getString = ( stateList:any):str => {
     let stateString = ''
@@ -17,5 +17,6 @@ export const getString = ( stateList:any):str => {
     return stateString += "\n"
 }
 
+export const  getRandom = (min:num,max:num) => { return Math.floor(Math.random() * (max - min + 1)) + min}
 
 
